@@ -16,7 +16,7 @@ public class Main {
                 int[] numArr = new int[k];
                 long[] output = new long[n];
                 String[] numStr = br.readLine().split(" ");
-                for (int j = 0; j < k; j++) {
+                for (int j = 0; j < k; j++){
                     numArr[j] = Integer.parseInt(numStr[j]);
                     output[j] = numArr[j];
                 }
